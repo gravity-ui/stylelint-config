@@ -1,7 +1,7 @@
 {
-  "name": "@yandex-cloud/stylelint-config",
-  "version": "1.2.0",
-  "description": "Yandex.Cloud Stylelint config, following our styleguide",
+  "name": "@gravity-ui/stylelint-config",
+  "version": "1.0.0",
+  "description": "Gravity UI Stylelint config, following our styleguide",
   "keywords": [
     "stylelint",
     "config"
@@ -9,7 +9,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yandex-cloud/stylelint-config"
+    "url": "https://github.com/gravity-ui/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/gravity-ui/eslint-config/issues"
+  },
+  "homepage": "https://github.com/gravity-ui/eslint-config#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "postcss-scss": "4.0.2",
@@ -17,6 +25,11 @@
     "stylelint-order": "5.0.0",
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "husky": "8.0.1"
   },
   "peerDependencies": {
     "postcss": "^8.0.0",

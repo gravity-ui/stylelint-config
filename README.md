@@ -1,8 +1,8 @@
-# @yandex-cloud/stylelint-config
+# @gravity-ui/stylelint-config
 
 ## Install
 ```
-$ npm install --save-dev stylelint postcss @yandex-cloud/stylelint-config
+npm install --save-dev stylelint postcss @gravity-ui/stylelint-config
 ```
 
 ## Usage
@@ -10,7 +10,7 @@ Add `.stylelintrc` file in the project root with the following content:
 
 ```json
 {
-    "extends": "@yandex-cloud/stylelint-config"
+    "extends": "@gravity-ui/stylelint-config"
 }
 ```
 
@@ -19,7 +19,7 @@ If you are using Prettier, extend root config with the additional rules:
 
 ```json
 {
-    "extends": ["@yandex-cloud/stylelint-config", "@yandex-cloud/stylelint-config/prettier"]
+    "extends": ["@gravity-ui/stylelint-config", "@gravity-ui/stylelint-config/prettier"]
 }
 ```
 
@@ -28,6 +28,6 @@ If you want to order properties in your css files, extend root config with the a
 
 ```json
 {
-    "extends": ["@yandex-cloud/stylelint-config", "@yandex-cloud/stylelint-config/order"]
+    "extends": ["@gravity-ui/stylelint-config", "@gravity-ui/stylelint-config/order"]
 }
 ```
