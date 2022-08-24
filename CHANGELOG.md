@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/gravity-ui/stylelint-config/compare/v1.0.0...v1.0.1) (2022-08-24)
+
+
+### Bug Fixes
+
+* package files ([cf69db3](https://github.com/gravity-ui/stylelint-config/commit/cf69db355dea45c38db313f775a22a07001e337d))
+
 ## 1.0.0 (2022-08-24)
 
 
