@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/gravity-ui/stylelint-config/compare/v1.0.1...v2.0.0) (2022-10-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **order:** add logical properties (#4)
+
+### Features
+
+* **order:** add logical properties ([#4](https://github.com/gravity-ui/stylelint-config/issues/4)) ([09ce7a7](https://github.com/gravity-ui/stylelint-config/commit/09ce7a7505db5b7a702ed1cc0eb1f506762e3c16))
+
 ## [1.0.1](https://github.com/gravity-ui/stylelint-config/compare/v1.0.0...v1.0.1) (2022-08-24)
 
 

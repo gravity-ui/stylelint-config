@@ -1,6 +1,6 @@
 {
   "name": "@gravity-ui/stylelint-config",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Gravity UI Stylelint config, following our styleguide",
   "keywords": [
     "stylelint",
