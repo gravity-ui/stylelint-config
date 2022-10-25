@@ -6,28 +6,35 @@ module.exports = {
             'dollar-variables',
             'custom-properties',
             'declarations',
-            { 'type': 'at-rule' },
+            { type: 'at-rule' },
             'rules',
-            { 'type': 'at-rule', 'hasBlock': true }
+            { type: 'at-rule', hasBlock: true },
         ],
 
         'order/properties-order': [
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'position',
                     'z-index',
                     'top',
                     'right',
                     'bottom',
-                    'left'
-                ]
+                    'left',
+                    'inset',
+                    'inset-block',
+                    'inset-block-start',
+                    'inset-block-end',
+                    'inset-inline',
+                    'inset-inline-start',
+                    'inset-inline-end',
+                ],
             },
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'display',
                     'box-orient',
                     'line-clamp',
@@ -37,7 +44,14 @@ module.exports = {
                     'overflow',
                     'overflow-x',
                     'overflow-y',
+                    'overflow-block',
+                    'overflow-inline',
                     'overflow-scrolling',
+                    'overscroll-behavior',
+                    'overscroll-behavior-x',
+                    'overscroll-behavior-y',
+                    'overscroll-behavior-block',
+                    'overscroll-behavior-inline',
                     'clip',
                     'zoom',
                     'flex',
@@ -69,13 +83,13 @@ module.exports = {
                     'grid-column-start',
                     'grid-row',
                     'grid-row-end',
-                    'grid-row-start'
-                ]
+                    'grid-row-start',
+                ],
             },
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'box-sizing',
                     'width',
                     'min-width',
@@ -83,22 +97,40 @@ module.exports = {
                     'height',
                     'min-height',
                     'max-height',
+                    'inline-size',
+                    'min-inline-size',
+                    'max-inline-size',
+                    'block-size',
+                    'min-block-size',
+                    'max-block-size',
                     'margin',
                     'margin-top',
                     'margin-right',
                     'margin-bottom',
                     'margin-left',
+                    'margin-block',
+                    'margin-block-start',
+                    'margin-block-end',
+                    'margin-inline',
+                    'margin-inline-start',
+                    'margin-inline-end',
                     'padding',
                     'padding-top',
                     'padding-right',
                     'padding-bottom',
-                    'padding-left'
-                ]
+                    'padding-left',
+                    'padding-block',
+                    'padding-block-start',
+                    'padding-block-end',
+                    'padding-inline',
+                    'padding-inline-start',
+                    'padding-inline-end',
+                ],
             },
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'table-layout',
                     'empty-cells',
                     'caption-side',
@@ -107,13 +139,13 @@ module.exports = {
                     'list-style',
                     'list-style-position',
                     'list-style-type',
-                    'list-style-image'
-                ]
+                    'list-style-image',
+                ],
             },
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'font',
                     'font-family',
                     'src',
@@ -167,13 +199,13 @@ module.exports = {
                     'hyphens',
                     'pointer-events',
                     'caret-color',
-                    'direction'
-                ]
+                    'direction',
+                ],
             },
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'opacity',
                     'color',
                     'border',
@@ -196,11 +228,39 @@ module.exports = {
                     'border-left-width',
                     'border-left-style',
                     'border-left-color',
+                    'border-block',
+                    'border-block-width',
+                    'border-block-style',
+                    'border-block-color',
+                    'border-block-start',
+                    'border-block-start-width',
+                    'border-block-start-style',
+                    'border-block-start-color',
+                    'border-block-end',
+                    'border-block-end-width',
+                    'border-block-end-style',
+                    'border-block-end-color',
+                    'border-inline',
+                    'border-inline-width',
+                    'border-inline-style',
+                    'border-inline-color',
+                    'border-inline-start',
+                    'border-inline-start-width',
+                    'border-inline-start-style',
+                    'border-inline-start-color',
+                    'border-inline-end',
+                    'border-inline-end-width',
+                    'border-inline-end-style',
+                    'border-inline-end-color',
                     'border-radius',
                     'border-top-left-radius',
                     'border-top-right-radius',
                     'border-bottom-right-radius',
                     'border-bottom-left-radius',
+                    'border-start-start-radius',
+                    'border-start-end-radius',
+                    'border-end-end-radius',
+                    'border-end-start-radius',
                     'border-image',
                     'border-image-source',
                     'border-image-slice',
@@ -231,13 +291,13 @@ module.exports = {
                     'mask',
                     'filter',
                     'highlight-color',
-                    'fill'
-                ]
+                    'fill',
+                ],
             },
             {
-                'emptyLineBefore': 'always',
-                'noEmptyLineBetween': true,
-                'properties': [
+                emptyLineBefore: 'always',
+                noEmptyLineBetween: true,
+                properties: [
                     'transition',
                     'transition-delay',
                     'transition-timing-function',
@@ -252,9 +312,9 @@ module.exports = {
                     'animation-timing-function',
                     'animation-delay',
                     'animation-iteration-count',
-                    'animation-direction'
-                ]
-            }
-        ]
+                    'animation-direction',
+                ],
+            },
+        ],
     },
 };
