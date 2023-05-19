@@ -17,9 +17,9 @@
     "url": "https://github.com/gravity-ui/stylelint-config"
   },
   "bugs": {
-    "url": "https://github.com/gravity-ui/eslint-config/issues"
+    "url": "https://github.com/gravity-ui/stylelint-config/issues"
   },
-  "homepage": "https://github.com/gravity-ui/eslint-config#readme",
+  "homepage": "https://github.com/gravity-ui/stylelint-config#readme",
   "scripts": {
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 0"
