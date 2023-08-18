@@ -8,7 +8,7 @@ module.exports = {
             'declarations',
             { type: 'at-rule' },
             'rules',
-            { type: 'at-rule', hasBlock: true },
+            { type: 'at-rule', hasBlock: true, name: 'media' },
         ],
 
         'order/properties-order': [
