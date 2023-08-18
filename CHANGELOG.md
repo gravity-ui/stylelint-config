@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.0](https://github.com/gravity-ui/stylelint-config/compare/v2.0.0...v3.0.0) (2023-08-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* `stylelint@15` support ([#8](https://github.com/gravity-ui/stylelint-config/issues/8))
+
+### Features
+
+* `stylelint@15` support ([#8](https://github.com/gravity-ui/stylelint-config/issues/8)) ([7468153](https://github.com/gravity-ui/stylelint-config/commit/746815330e4ed2d170499b269ad5c0b99c05eb3a))
+* force only `[@media](https://github.com/media)` sort ([#11](https://github.com/gravity-ui/stylelint-config/issues/11)) ([d703050](https://github.com/gravity-ui/stylelint-config/commit/d7030503721587a353541e18d9f9f457dd9d2255))
+
 ## [2.0.0](https://github.com/gravity-ui/stylelint-config/compare/v1.0.1...v2.0.0) (2022-10-25)
 
 
