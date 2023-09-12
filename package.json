@@ -22,21 +22,43 @@
   "homepage": "https://github.com/gravity-ui/stylelint-config#readme",
   "scripts": {
     "prepare": "husky install",
+    "lint": "npm run lint:styles && npm run lint:other",
+    "lint:styles": "stylelint '**/*.{css,scss}' --report-needless-disables",
+    "lint:other": "npm run prettier -- --check",
+    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "postcss-scss": "^4.0.7",
     "stylelint-order": "^6.0.3",
-    "stylelint-prettier": "^3.0.0",
+    "stylelint-prettier": "^4.0.2",
     "stylelint-scss": "^5.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "husky": "^8.0.3"
+    "@gravity-ui/prettier-config": "^1.1.0",
+    "husky": "8.0.3",
+    "nano-staged": "^0.8.0",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3"
   },
   "peerDependencies": {
     "postcss": "^8.0.0",
-    "stylelint": "^15.0.0"
+    "prettier": "^3.0.0",
+    "stylelint": "^15.8.0"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    }
+  },
+  "nano-staged": {
+    "*.{css,scss}": [
+      "stylelint --fix --quiet --report-needless-disables"
+    ],
+    "*.{js,md,yaml,yml,json}": [
+      "prettier --write"
+    ]
   }
 }

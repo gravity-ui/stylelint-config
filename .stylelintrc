@@ -1,0 +1,3 @@
+{
+    "extends": ["./index.js", "./order.js", "./prettier.js"]
+}
