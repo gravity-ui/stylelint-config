@@ -6,9 +6,9 @@ module.exports = {
             'dollar-variables',
             'custom-properties',
             'declarations',
-            { type: 'at-rule' },
+            {type: 'at-rule'},
             'rules',
-            { type: 'at-rule', hasBlock: true, name: 'media' },
+            {type: 'at-rule', hasBlock: true, name: 'media'},
         ],
 
         'order/properties-order': [
@@ -84,6 +84,9 @@ module.exports = {
                     'grid-row',
                     'grid-row-end',
                     'grid-row-start',
+                    'gap',
+                    'column-gap',
+                    'row-gap',
                 ],
             },
             {

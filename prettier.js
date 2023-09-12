@@ -4,5 +4,5 @@ module.exports = {
     rules: {
         // Turn on prettier
         'prettier/prettier': true,
-    }
-}
+    },
+};
