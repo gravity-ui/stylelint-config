@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/gravity-ui/stylelint-config/compare/v3.0.0...v4.0.0) (2023-09-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* support prettier v3, order gap properties ([#13](https://github.com/gravity-ui/stylelint-config/issues/13))
+
+### Features
+
+* support prettier v3, order gap properties ([#13](https://github.com/gravity-ui/stylelint-config/issues/13)) ([acd39d0](https://github.com/gravity-ui/stylelint-config/commit/acd39d00d3d462c7f7253f4a17ece3a32c1d33d0))
+
 ## [3.0.0](https://github.com/gravity-ui/stylelint-config/compare/v2.0.0...v3.0.0) (2023-08-18)
 
 
