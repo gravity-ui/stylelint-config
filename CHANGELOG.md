@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/gravity-ui/stylelint-config/compare/v4.0.0...v4.0.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* linting is broken if dependant project doesn't have `postcss-scss` package in deps ([#15](https://github.com/gravity-ui/stylelint-config/issues/15)) ([0c785a7](https://github.com/gravity-ui/stylelint-config/commit/0c785a7b454949e02b07e5b68dfd8ee797d6f0cb))
+
 ## [4.0.0](https://github.com/gravity-ui/stylelint-config/compare/v3.0.0...v4.0.0) (2023-09-12)
 
 
