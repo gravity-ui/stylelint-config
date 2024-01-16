@@ -23,12 +23,12 @@ module.exports = {
         // Limit language features
         'color-named': 'never',
         'value-no-vendor-prefix': [
-			true,
-			{
-				// `-webkit-box` is allowed as standard. See https://www.w3.org/TR/css-overflow-3/#webkit-line-clamp
-				ignoreValues: ['box'],
-			},
-		],
+            true,
+            {
+                // `-webkit-box` is allowed as standard. See https://www.w3.org/TR/css-overflow-3/#webkit-line-clamp
+                ignoreValues: ['box'],
+            },
+        ],
         'property-no-vendor-prefix': true,
         'declaration-no-important': true,
         'declaration-block-single-line-max-declarations': 1,
