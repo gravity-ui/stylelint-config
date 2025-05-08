@@ -1,6 +1,8 @@
-module.exports = {
+import postcssScss from 'postcss-scss';
+
+export default {
     plugins: ['stylelint-scss'],
-    customSyntax: require('postcss-scss'),
+    customSyntax: postcssScss,
     rules: {
         // Possible errors
         'color-no-invalid-hex': true,

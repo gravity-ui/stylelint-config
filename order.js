@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     plugins: ['stylelint-order'],
     rules: {
         // Turn on order plugin

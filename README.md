@@ -1,5 +1,13 @@
 # @gravity-ui/stylelint-config
 
+Stylelint configuration for Gravity UI projects.
+
+## Requirements
+
+- Node.js >= 18.12.0
+- Stylelint 16.18.x
+- PostCSS 8.x
+
 ## Install
 
 ```
