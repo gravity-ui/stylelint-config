@@ -1,5 +1,16 @@
 # Changelog
 
+## [5.0.0](https://github.com/gravity-ui/stylelint-config/compare/v4.0.1...v5.0.0) (2025-05-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** support stylelint v16 ([#19](https://github.com/gravity-ui/stylelint-config/issues/19))
+
+### Features
+
+* **deps:** support stylelint v16 ([#19](https://github.com/gravity-ui/stylelint-config/issues/19)) ([96aed72](https://github.com/gravity-ui/stylelint-config/commit/96aed72f17eff992f76b0d038f6cb05f8edfe016))
+
 ## [4.0.1](https://github.com/gravity-ui/stylelint-config/compare/v4.0.0...v4.0.1) (2023-10-18)
 
 
